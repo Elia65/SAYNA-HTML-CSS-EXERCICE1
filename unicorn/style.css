@@ -1,0 +1,123 @@
+
+body{
+    font-family: Arial, sans-serif;
+    font-size: small;
+}
+title, h1, a, h2, h3{
+    font-family: 'Courgette', cursive;
+}
+a{
+    color: #FFF;
+    text-decoration: none;
+    background-color: #C55394;    
+}
+h3{
+    color: #EB43A3;
+}
+
+/*Header*/
+header{
+    background-color:#C55394;
+    width: auto;
+    padding-left: 10pt;
+    padding-right: 10pt;
+}
+nav{
+    display:flex;
+}
+nav h1{
+    width: 60%;
+    justify-content: center;
+    float: left;
+}
+nav ul{
+    width: 40%;
+    justify-content: right;
+}
+nav ul li{
+    float: right;
+    list-style-type: none;
+    padding-left: 10px;
+    padding-right: 10pt;
+}
+/*for outset*/
+a:hover{
+    background-color: #EB43A3;
+}
+/*contenu*/
+#titre {
+    color:#C55394;
+    text-align: center;
+    background-image: url("img/rainbow.png");
+    background-repeat:no-repeat;
+    background-position: center;
+    padding: 112px;
+    margin-bottom: -75px;
+}
+h2{
+    color:#EB43A3;
+}
+.licornes{
+    list-style-position: unset;
+    justify-content: center;
+}
+.plan{
+    background-color: #FFF;
+    margin: 0px 125px 26px 125px;
+    padding: 45px 24px 45px 24px;
+    border-style: solid;
+    border-radius: 10pt;
+    border-color: gray;
+}
+/*figure*/
+figure{
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-evenly;
+    flex-flow: column;
+    padding: 0px 3px 0px 13px;
+    margin:0px;
+}
+figcaption{
+    background-color: #333;
+    color: #FFF;
+    text-align: center;
+}
+img{
+    width: 13rem;
+}
+.noustrouver{
+    display: inline-flex;
+    justify-content: center;
+}
+.nous_trouver_map{
+    align-content: flex-start;
+    padding-right: 10pt;
+}
+.nous_trouver_address{
+    align-content: flex-end;
+    padding-left: 10pt;
+}
+
+/*bouton valider*/
+
+button{
+    border-style: solid;
+    border-radius: 2pt;
+    color: #fffff0;
+    background-color: #EB43A3
+}
+
+
+
+/*footer*/
+footer {
+    align-content: center;
+    background-color: #C55394;
+    display: flex;
+    justify-content: right;
+    padding: 10px 130px 10px 0px;
+    width: auto;
+}
